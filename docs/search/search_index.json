@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Learn Python!\n\n\nHere at learn python we strive to enable anyone to use and write python code.",
+            "title": "Welcome to Learn Python!"
+        },
+        {
+            "location": "/#welcome-to-learn-python",
+            "text": "Here at learn python we strive to enable anyone to use and write python code.",
+            "title": "Welcome to Learn Python!"
+        },
+        {
+            "location": "/tutorials/getting-started/",
+            "text": "",
+            "title": "Getting started"
+        }
+    ]
+}
