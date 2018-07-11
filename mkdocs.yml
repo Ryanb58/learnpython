@@ -3,3 +3,5 @@ theme: united
 repo_url: https://github.com/ryanb58/learnpython/
 docs_dir: 'content'
 site_dir: 'docs'
+pages:
+  Home: index.md
