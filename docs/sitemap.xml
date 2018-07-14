@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>/</loc>
-     <lastmod>2018-07-11</lastmod>
+     <lastmod>2018-07-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/tutorials/getting-started/</loc>
-     <lastmod>2018-07-11</lastmod>
+     <loc>/tutorial/1-Getting-Started/</loc>
+     <lastmod>2018-07-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/tutorial/2-Variables/</loc>
+     <lastmod>2018-07-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

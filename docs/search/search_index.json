@@ -2,18 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to Learn Python!\n\n\nHere at learn python we strive to enable anyone to use and write python code.",
-            "title": "Welcome to Learn Python!"
+            "text": "Please start out with our tutorial.",
+            "title": "Home"
         },
         {
-            "location": "/#welcome-to-learn-python",
-            "text": "Here at learn python we strive to enable anyone to use and write python code.",
-            "title": "Welcome to Learn Python!"
+            "location": "/tutorial/1-Getting-Started/",
+            "text": "Getting Started\n\n\nLets pop into an interactive shell type the following:\n\n\n4 * 7\n\n\n\n\nYou should see something similar to the following:\n\n\n>>> 4 * 7\n28\n\n\n\n\nAwesome! You just did some multiplication and the product(result) was printed\nout on the line below your input.\n\n\nThe astrisk is called an operator in python. Some other operators include:\n\n+\n, \n-\n, and \n/\n.\n\n\nLets try them out:\n\n\n>>> 4 + 7\n11\n>>> 4 - 7\n-3\n>>> 8 / 2\n4.0\n\n\n\n\nNeato! That seemed to of worked pretty well, but what about other operators?\nSadly this page would become cluttered if I were to include every operator on\nit. Yet luckily for you there is documentation. The python docs are a fantastic\nresource when you need to perform some sort of action but are unsure how. Lets\nvisit their documentation now:\n\n\nhttps://docs.python.org/3/library/operator.html#mapping-operators-to-functions\n\n\nThe link above is a direct link to the operators table that python includes.\nSo now for the challenge:\n\n\nTake 4 to the power of 7. Your result should be: 16384\n\n\nAnswer:\n\n\n>>> 4**7\n16384",
+            "title": "1 Getting Started"
         },
         {
-            "location": "/tutorials/getting-started/",
+            "location": "/tutorial/1-Getting-Started/#getting-started",
+            "text": "Lets pop into an interactive shell type the following:  4 * 7  You should see something similar to the following:  >>> 4 * 7\n28  Awesome! You just did some multiplication and the product(result) was printed\nout on the line below your input.  The astrisk is called an operator in python. Some other operators include: + ,  - , and  / .  Lets try them out:  >>> 4 + 7\n11\n>>> 4 - 7\n-3\n>>> 8 / 2\n4.0  Neato! That seemed to of worked pretty well, but what about other operators?\nSadly this page would become cluttered if I were to include every operator on\nit. Yet luckily for you there is documentation. The python docs are a fantastic\nresource when you need to perform some sort of action but are unsure how. Lets\nvisit their documentation now:  https://docs.python.org/3/library/operator.html#mapping-operators-to-functions  The link above is a direct link to the operators table that python includes.\nSo now for the challenge:  Take 4 to the power of 7. Your result should be: 16384  Answer:  >>> 4**7\n16384",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/tutorial/2-Variables/",
             "text": "",
-            "title": "Getting started"
+            "title": "2 Variables"
         }
     ]
 }

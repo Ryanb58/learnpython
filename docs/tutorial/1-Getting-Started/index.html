@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Getting started - Learn Python</title>
+        <title>1 Getting Started - Learn Python</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -46,14 +46,18 @@
                 <!-- Main navigation -->
                 <ul class="nav navbar-nav">
                     <li >
-                        <a href="../..">Welcome to Learn Python!</a>
+                        <a href="../..">Home</a>
                     </li>
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorial <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             
 <li class="active">
-    <a href="./">Getting started</a>
+    <a href="./">1 Getting Started</a>
+</li>
+                            
+<li >
+    <a href="../2-Variables/">2 Variables</a>
 </li>
                         </ul>
                     </li>
@@ -70,13 +74,13 @@
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../2-Variables/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/ryanb58/learnpython/edit/master/docs/tutorials/getting-started.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/ryanb58/learnpython/edit/master/docs/tutorial/1-Getting-Started.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -86,11 +90,47 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#getting-started">Getting Started</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h2 id="getting-started">Getting Started</h2>
+<p>Lets pop into an interactive shell type the following:</p>
+<pre><code>4 * 7
+</code></pre>
+
+<p>You should see something similar to the following:</p>
+<pre><code>&gt;&gt;&gt; 4 * 7
+28
+</code></pre>
+
+<p>Awesome! You just did some multiplication and the product(result) was printed
+out on the line below your input.</p>
+<p>The astrisk is called an operator in python. Some other operators include:
+<code>+</code>, <code>-</code>, and <code>/</code>.</p>
+<p>Lets try them out:</p>
+<pre><code>&gt;&gt;&gt; 4 + 7
+11
+&gt;&gt;&gt; 4 - 7
+-3
+&gt;&gt;&gt; 8 / 2
+4.0
+</code></pre>
+
+<p>Neato! That seemed to of worked pretty well, but what about other operators?
+Sadly this page would become cluttered if I were to include every operator on
+it. Yet luckily for you there is documentation. The python docs are a fantastic
+resource when you need to perform some sort of action but are unsure how. Lets
+visit their documentation now:</p>
+<p><a href="https://docs.python.org/3/library/operator.html#mapping-operators-to-functions">https://docs.python.org/3/library/operator.html#mapping-operators-to-functions</a></p>
+<p>The link above is a direct link to the operators table that python includes.
+So now for the challenge:</p>
+<p>Take 4 to the power of 7. Your result should be: 16384</p>
+<p>Answer:</p>
+<pre><code>&gt;&gt;&gt; 4**7
+16384
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
