@@ -12,13 +12,13 @@
         },
         {
             "location": "/tutorial/1-Getting-Started/",
-            "text": "Hello World\n\n\nMost developers follow a tradition upon learning a new programming language.\nThis long lived tradition involves one writing code that outputs the text\n\"Hello, world!\" to the screen in their shiny new language. Lets attempt the\nsame task here in python.\n\n\n>>> print(\"Hello, world!\")\nHello, world!\n\n\n\n\nThe text was outputted to the screen successfuly. Make note here that you\njust told python to print out a sentence to the screen here.",
+            "text": "Developer Tradition: Hello World\n\n\nUpon embarking on the task of learning a new language a developer always starts\nout by attempting to get the language to print the text \"Hello, world!\" on the\nscreen. This validates their development environment and machine as a whole are\nsetup properly. Lets attempt this task here in python.\n\n\n>>> print(\"Hello, world!\")\nHello, world!\n\n\n\n\nAs you can see the text was outputted to the screen successfuly. Make note here\nthat you just told python to print out a sentence to the screen.",
             "title": "1 Getting Started"
         },
         {
-            "location": "/tutorial/1-Getting-Started/#hello-world",
-            "text": "Most developers follow a tradition upon learning a new programming language.\nThis long lived tradition involves one writing code that outputs the text\n\"Hello, world!\" to the screen in their shiny new language. Lets attempt the\nsame task here in python.  >>> print(\"Hello, world!\")\nHello, world!  The text was outputted to the screen successfuly. Make note here that you\njust told python to print out a sentence to the screen here.",
-            "title": "Hello World"
+            "location": "/tutorial/1-Getting-Started/#developer-tradition-hello-world",
+            "text": "Upon embarking on the task of learning a new language a developer always starts\nout by attempting to get the language to print the text \"Hello, world!\" on the\nscreen. This validates their development environment and machine as a whole are\nsetup properly. Lets attempt this task here in python.  >>> print(\"Hello, world!\")\nHello, world!  As you can see the text was outputted to the screen successfuly. Make note here\nthat you just told python to print out a sentence to the screen.",
+            "title": "Developer Tradition: Hello World"
         },
         {
             "location": "/tutorial/2-Variables/",
