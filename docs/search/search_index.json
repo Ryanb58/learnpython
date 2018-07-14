@@ -2,23 +2,63 @@
     "docs": [
         {
             "location": "/",
-            "text": "Please start out with our tutorial.",
+            "text": "Welcome to learn python!\n\n\nMy name is Taylor Brazelton, the author of this site. Often through out my\ndays on this earth, I run into people saying things like \"Wow you write\ncomputer code? I wish I could do that\". In which I always think about how\ncrazy these people are to think that they can't. Often I ask those people\nto clarify why they think they couldn't and more often than not I get responses\nalong the lines of people not knowing where they would begin.",
             "title": "Home"
         },
         {
+            "location": "/#welcome-to-learn-python",
+            "text": "My name is Taylor Brazelton, the author of this site. Often through out my\ndays on this earth, I run into people saying things like \"Wow you write\ncomputer code? I wish I could do that\". In which I always think about how\ncrazy these people are to think that they can't. Often I ask those people\nto clarify why they think they couldn't and more often than not I get responses\nalong the lines of people not knowing where they would begin.",
+            "title": "Welcome to learn python!"
+        },
+        {
             "location": "/tutorial/1-Getting-Started/",
-            "text": "Getting Started\n\n\nLets pop into an interactive shell type the following:\n\n\n4 * 7\n\n\n\n\nYou should see something similar to the following:\n\n\n>>> 4 * 7\n28\n\n\n\n\nAwesome! You just did some multiplication and the product(result) was printed\nout on the line below your input.\n\n\nThe astrisk is called an operator in python. Some other operators include:\n\n+\n, \n-\n, and \n/\n.\n\n\nLets try them out:\n\n\n>>> 4 + 7\n11\n>>> 4 - 7\n-3\n>>> 8 / 2\n4.0\n\n\n\n\nNeato! That seemed to of worked pretty well, but what about other operators?\nSadly this page would become cluttered if I were to include every operator on\nit. Yet luckily for you there is documentation. The python docs are a fantastic\nresource when you need to perform some sort of action but are unsure how. Lets\nvisit their documentation now:\n\n\nhttps://docs.python.org/3/library/operator.html#mapping-operators-to-functions\n\n\nThe link above is a direct link to the operators table that python includes.\nSo now for the challenge:\n\n\nTake 4 to the power of 7. Your result should be: 16384\n\n\nAnswer:\n\n\n>>> 4**7\n16384",
+            "text": "Hello World\n\n\nMost developers follow a tradition upon learning a new programming language.\nThis long lived tradition involves one writing code that outputs the text\n\"Hello, world!\" to the screen in their shiny new language. Lets attempt the\nsame task here in python.\n\n\n>>> print(\"Hello, world!\")\nHello, world!\n\n\n\n\nThe text was outputted to the screen successfuly. Make note here that you\njust told python to print out a sentence to the screen here.",
             "title": "1 Getting Started"
         },
         {
-            "location": "/tutorial/1-Getting-Started/#getting-started",
-            "text": "Lets pop into an interactive shell type the following:  4 * 7  You should see something similar to the following:  >>> 4 * 7\n28  Awesome! You just did some multiplication and the product(result) was printed\nout on the line below your input.  The astrisk is called an operator in python. Some other operators include: + ,  - , and  / .  Lets try them out:  >>> 4 + 7\n11\n>>> 4 - 7\n-3\n>>> 8 / 2\n4.0  Neato! That seemed to of worked pretty well, but what about other operators?\nSadly this page would become cluttered if I were to include every operator on\nit. Yet luckily for you there is documentation. The python docs are a fantastic\nresource when you need to perform some sort of action but are unsure how. Lets\nvisit their documentation now:  https://docs.python.org/3/library/operator.html#mapping-operators-to-functions  The link above is a direct link to the operators table that python includes.\nSo now for the challenge:  Take 4 to the power of 7. Your result should be: 16384  Answer:  >>> 4**7\n16384",
-            "title": "Getting Started"
+            "location": "/tutorial/1-Getting-Started/#hello-world",
+            "text": "Most developers follow a tradition upon learning a new programming language.\nThis long lived tradition involves one writing code that outputs the text\n\"Hello, world!\" to the screen in their shiny new language. Lets attempt the\nsame task here in python.  >>> print(\"Hello, world!\")\nHello, world!  The text was outputted to the screen successfuly. Make note here that you\njust told python to print out a sentence to the screen here.",
+            "title": "Hello World"
         },
         {
             "location": "/tutorial/2-Variables/",
-            "text": "",
+            "text": "Numbers\n\n\nLets pop into an interactive shell and type the following:\n\n\n4 * 7\n\n\n\n\nYou should see something similar to the following:\n\n\n>>> 4 * 7\n28\n\n\n\n\nAwesome! You just did multiplication and the product(result) was printed below\nyour input.\n\n\nThe astrisk between the four and the seven is called an operator in python.\nOperators are normally very intuitive for example: \n+\n, \n-\n, and \n/\n are all operators. In fact they match up to the actions of \nadding\n, \nsubtracting\n, and \ndividing\n.\n\n\nLets try them out:\n\n\n>>> 4 + 7\n11\n>>> 4 - 7\n-3\n>>> 8 / 2\n4.0\n\n\n\n\nNeato! That seemed to of worked pretty well, but what about other operators?\nSadly this page would become cluttered if I were to include every operator on\nit. Yet luckily for you there is documentation. The python docs are a fantastic\nresource when you need to perform some sort of action but are unsure how. Lets\nvisit their documentation now:\n\n\nhttps://docs.python.org/3/library/operator.html#mapping-operators-to-functions\n\n\nThe link above is a direct link to the operators table that python includes.\nSo now for the challenge:\n\n\nTake 4 to the power of 7. Your result should be: 16384\n\n\nAnswer:\n\n\n>>> 4**7\n16384\n\n\n\n\nVariables\n\n\nNow that you have learned how to use operators in python, lets dive into the\nuse of variables. You can think of a variable as an alias or reference for the\nresult of the operator.\n\n\nFor example if you run this code:\n\n\n>>> result = 4 * 7\n\n\n\n\nYou will notice that the answer of 4 times 7 did not print out on the next\nline. This is because the product was stored in a variable named \nresult\n.\nTo see the contents of that variable just type in the name on another line.\n\n\n>>> result\n28\n\n\n\n\nNow everytime you need the number 28 you can simply interject the variable\n\nresult\n.\n\n\n>>> result - 10\n18\n\n\n\n\nGreat job, you just used a variable in your code. Although if you thought that\nthe variable \nresult\n would reference the number 18 now, you would be wrong.\nThat is because we didn't assign the variable to the result of the equation\nwe wrote in our code. Try typing in \nresult\n now and it should output \n28\n\nstill.\n\n\nStrings\n\n\nHow about adding some test into the mix.",
             "title": "2 Variables"
+        },
+        {
+            "location": "/tutorial/2-Variables/#numbers",
+            "text": "Lets pop into an interactive shell and type the following:  4 * 7  You should see something similar to the following:  >>> 4 * 7\n28  Awesome! You just did multiplication and the product(result) was printed below\nyour input.  The astrisk between the four and the seven is called an operator in python.\nOperators are normally very intuitive for example:  + ,  - , and  /  are all operators. In fact they match up to the actions of  adding ,  subtracting , and  dividing .  Lets try them out:  >>> 4 + 7\n11\n>>> 4 - 7\n-3\n>>> 8 / 2\n4.0  Neato! That seemed to of worked pretty well, but what about other operators?\nSadly this page would become cluttered if I were to include every operator on\nit. Yet luckily for you there is documentation. The python docs are a fantastic\nresource when you need to perform some sort of action but are unsure how. Lets\nvisit their documentation now:  https://docs.python.org/3/library/operator.html#mapping-operators-to-functions  The link above is a direct link to the operators table that python includes.\nSo now for the challenge:  Take 4 to the power of 7. Your result should be: 16384  Answer:  >>> 4**7\n16384",
+            "title": "Numbers"
+        },
+        {
+            "location": "/tutorial/2-Variables/#variables",
+            "text": "Now that you have learned how to use operators in python, lets dive into the\nuse of variables. You can think of a variable as an alias or reference for the\nresult of the operator.  For example if you run this code:  >>> result = 4 * 7  You will notice that the answer of 4 times 7 did not print out on the next\nline. This is because the product was stored in a variable named  result .\nTo see the contents of that variable just type in the name on another line.  >>> result\n28  Now everytime you need the number 28 you can simply interject the variable result .  >>> result - 10\n18  Great job, you just used a variable in your code. Although if you thought that\nthe variable  result  would reference the number 18 now, you would be wrong.\nThat is because we didn't assign the variable to the result of the equation\nwe wrote in our code. Try typing in  result  now and it should output  28 \nstill.",
+            "title": "Variables"
+        },
+        {
+            "location": "/tutorial/2-Variables/#strings",
+            "text": "How about adding some test into the mix.",
+            "title": "Strings"
+        },
+        {
+            "location": "/tutorial/3-Lists/",
+            "text": "",
+            "title": "3 Lists"
+        },
+        {
+            "location": "/tutorial/4-Dictionaries/",
+            "text": "",
+            "title": "4 Dictionaries"
+        },
+        {
+            "location": "/tutorial/5-Functions/",
+            "text": "",
+            "title": "5 Functions"
+        },
+        {
+            "location": "/tutorial/6-Classes/",
+            "text": "",
+            "title": "6 Classes"
         }
     ]
 }

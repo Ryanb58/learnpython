@@ -59,6 +59,22 @@
 <li class="active">
     <a href="./">2 Variables</a>
 </li>
+                            
+<li >
+    <a href="../3-Lists/">3 Lists</a>
+</li>
+                            
+<li >
+    <a href="../4-Dictionaries/">4 Dictionaries</a>
+</li>
+                            
+<li >
+    <a href="../5-Functions/">5 Functions</a>
+</li>
+                            
+<li >
+    <a href="../6-Classes/">6 Classes</a>
+</li>
                         </ul>
                     </li>
                 </ul>
@@ -74,8 +90,8 @@
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../3-Lists/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -90,11 +106,78 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#numbers">Numbers</a></li>
+        <li class="main "><a href="#variables">Variables</a></li>
+        <li class="main "><a href="#strings">Strings</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h2 id="numbers">Numbers</h2>
+<p>Lets pop into an interactive shell and type the following:</p>
+<pre><code>4 * 7
+</code></pre>
+
+<p>You should see something similar to the following:</p>
+<pre><code>&gt;&gt;&gt; 4 * 7
+28
+</code></pre>
+
+<p>Awesome! You just did multiplication and the product(result) was printed below
+your input.</p>
+<p>The astrisk between the four and the seven is called an operator in python.
+Operators are normally very intuitive for example: <code>+</code>, <code>-</code>, and <code>/</code> are all operators. In fact they match up to the actions of <code>adding</code>, <code>subtracting</code>, and <code>dividing</code>.</p>
+<p>Lets try them out:</p>
+<pre><code>&gt;&gt;&gt; 4 + 7
+11
+&gt;&gt;&gt; 4 - 7
+-3
+&gt;&gt;&gt; 8 / 2
+4.0
+</code></pre>
+
+<p>Neato! That seemed to of worked pretty well, but what about other operators?
+Sadly this page would become cluttered if I were to include every operator on
+it. Yet luckily for you there is documentation. The python docs are a fantastic
+resource when you need to perform some sort of action but are unsure how. Lets
+visit their documentation now:</p>
+<p><a href="https://docs.python.org/3/library/operator.html#mapping-operators-to-functions">https://docs.python.org/3/library/operator.html#mapping-operators-to-functions</a></p>
+<p>The link above is a direct link to the operators table that python includes.
+So now for the challenge:</p>
+<p>Take 4 to the power of 7. Your result should be: 16384</p>
+<p>Answer:</p>
+<pre><code>&gt;&gt;&gt; 4**7
+16384
+</code></pre>
+
+<h2 id="variables">Variables</h2>
+<p>Now that you have learned how to use operators in python, lets dive into the
+use of variables. You can think of a variable as an alias or reference for the
+result of the operator.</p>
+<p>For example if you run this code:</p>
+<pre><code>&gt;&gt;&gt; result = 4 * 7
+</code></pre>
+
+<p>You will notice that the answer of 4 times 7 did not print out on the next
+line. This is because the product was stored in a variable named <code>result</code>.
+To see the contents of that variable just type in the name on another line.</p>
+<pre><code>&gt;&gt;&gt; result
+28
+</code></pre>
+
+<p>Now everytime you need the number 28 you can simply interject the variable
+<code>result</code>.</p>
+<pre><code>&gt;&gt;&gt; result - 10
+18
+</code></pre>
+
+<p>Great job, you just used a variable in your code. Although if you thought that
+the variable <code>result</code> would reference the number 18 now, you would be wrong.
+That is because we didn't assign the variable to the result of the equation
+we wrote in our code. Try typing in <code>result</code> now and it should output <code>28</code>
+still.</p>
+<h2 id="strings">Strings</h2>
+<p>How about adding some test into the mix.</p></div>
         </div>
 
         <footer class="col-md-12">
