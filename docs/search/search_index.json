@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to learn python!\n\n\nMy name is Taylor Brazelton, the author of this site. Often through out my\ndays on this earth, I run into people saying things like \"Wow you write\ncomputer code? I wish I could do that\". In which I always think about how\ncrazy these people are to think that they can't. Often I ask those people\nto clarify why they think they couldn't and more often than not I get responses\nalong the lines of people not knowing where they would begin.",
+            "text": "Welcome to learn python!\n\n\nHello world, my name is Taylor Brazelton. I am the author of this website. I\nhope you find it to be useful on your journey to learning how to program using\npython.\n\n\nOften I run into people who say things such as \"Wow you write computer code? I\nwish I could do that\". Normally I ask those people to clarify why they think\nthey can't; more often than not I get responses along the lines of people\nnot knowing where they would begin.\n\n\nThat is one of the many reasons I have created this site. To help guide people\non their jounry to learn python.\n\n\nCurrently things are more of a work in progress but I will continue to add\ntutorials and helpful articles to this site as I aquire the time. In the mean\ntime check out the getting started section under the tutorials dropdown.",
             "title": "Home"
         },
         {
             "location": "/#welcome-to-learn-python",
-            "text": "My name is Taylor Brazelton, the author of this site. Often through out my\ndays on this earth, I run into people saying things like \"Wow you write\ncomputer code? I wish I could do that\". In which I always think about how\ncrazy these people are to think that they can't. Often I ask those people\nto clarify why they think they couldn't and more often than not I get responses\nalong the lines of people not knowing where they would begin.",
+            "text": "Hello world, my name is Taylor Brazelton. I am the author of this website. I\nhope you find it to be useful on your journey to learning how to program using\npython.  Often I run into people who say things such as \"Wow you write computer code? I\nwish I could do that\". Normally I ask those people to clarify why they think\nthey can't; more often than not I get responses along the lines of people\nnot knowing where they would begin.  That is one of the many reasons I have created this site. To help guide people\non their jounry to learn python.  Currently things are more of a work in progress but I will continue to add\ntutorials and helpful articles to this site as I aquire the time. In the mean\ntime check out the getting started section under the tutorials dropdown.",
             "title": "Welcome to learn python!"
         },
         {
