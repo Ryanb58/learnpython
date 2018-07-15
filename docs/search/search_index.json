@@ -12,13 +12,28 @@
         },
         {
             "location": "/tutorial/1-Getting-Started/",
-            "text": "Developer Tradition: Hello World\n\n\nUpon embarking on the task of learning a new language a developer always starts\nout by attempting to get the language to print the text \"Hello, world!\" on the\nscreen. This validates their development environment and machine as a whole are\nsetup properly. Lets attempt this task here in python.\n\n\n>>> print(\"Hello, world!\")\nHello, world!\n\n\n\n\nAs you can see the text was outputted to the screen successfuly. Make note here\nthat you just told python to print out a sentence to the screen.",
+            "text": "What is Python?\n\n\nPython is a programming language that is easy to read, fun to use, and quick\nfor development. There is an infinite amount of things you can accomplish by\nmixing and matching the modules in python. Think of this language as a way to connect things together in the digital world.\n\n\nUse Cases:\n\n\nAs I previously said, there is an infinite amount of tasks you can accomplish\nby using python, yet here I shall list a few that people normally want to do\nwhen first coming to python.\n\n\n\n\n\n\nAutomate a repetitve task on the computer.\n\n\n\n\n\n\nCreate a timer that triggers real actions such as turning ones  thermostat\ndown at night.\n\n\n\n\n\n\nTake data from a website and place it into a file for use on your desktop.\n\n\n\n\n\n\nRename a lot of files or folders at once.\n\n\n\n\n\n\nBuild an interactive website.\n\n\n\n\n\n\nProcess a lot of data.\n\n\n\n\n\n\nHow To Run The Code:\n\n\nMost times you would install python locally, however, that takes some effort\nthat you may not want to go through initially. Below is the link to the offical\npython website where you can download it if you want:\n\n\npython\n\n\nFor those of you who just want to get started, I recomend just visiting the URL\n below, as everything this tutorial covers is executable on this webpage.\n\n\nPython REPL\n\n\nOnce you open up the page above, you should see something along the following:\n\n\nPython 3.6.x (default, Dec 2015, 13:05:11)\n[GCC 4.8.2] on linux\n>\n\n\n\n\nThis is called the python interpreter. The code from the tutorials can be typed\ndirectly into this area. We will not be using the \nmain.py\n file for a bit.\n\n\nWriting Your First Code:\n\n\nUpon embarking on the task of learning a new language a developer always starts\nout by attempting to get the language to print the text \"Hello, world!\" on the\nscreen. This is called the Hello World Test. Doing so validates their\ndevelopment environment and desktop as a whole are setup properly. Lets attempt\nthis here in python.\n\n\n>>> print(\"Hello, world!\")\nHello, world!\n\n\n\n\nprint\n is a very useful function that is available in all version of python.\n\n\nTake note of how we put the sentence inside of quotes. This is called a string\nin most programming languages.",
             "title": "1 Getting Started"
         },
         {
-            "location": "/tutorial/1-Getting-Started/#developer-tradition-hello-world",
-            "text": "Upon embarking on the task of learning a new language a developer always starts\nout by attempting to get the language to print the text \"Hello, world!\" on the\nscreen. This validates their development environment and machine as a whole are\nsetup properly. Lets attempt this task here in python.  >>> print(\"Hello, world!\")\nHello, world!  As you can see the text was outputted to the screen successfuly. Make note here\nthat you just told python to print out a sentence to the screen.",
-            "title": "Developer Tradition: Hello World"
+            "location": "/tutorial/1-Getting-Started/#what-is-python",
+            "text": "Python is a programming language that is easy to read, fun to use, and quick\nfor development. There is an infinite amount of things you can accomplish by\nmixing and matching the modules in python. Think of this language as a way to connect things together in the digital world.",
+            "title": "What is Python?"
+        },
+        {
+            "location": "/tutorial/1-Getting-Started/#use-cases",
+            "text": "As I previously said, there is an infinite amount of tasks you can accomplish\nby using python, yet here I shall list a few that people normally want to do\nwhen first coming to python.    Automate a repetitve task on the computer.    Create a timer that triggers real actions such as turning ones  thermostat\ndown at night.    Take data from a website and place it into a file for use on your desktop.    Rename a lot of files or folders at once.    Build an interactive website.    Process a lot of data.",
+            "title": "Use Cases:"
+        },
+        {
+            "location": "/tutorial/1-Getting-Started/#how-to-run-the-code",
+            "text": "Most times you would install python locally, however, that takes some effort\nthat you may not want to go through initially. Below is the link to the offical\npython website where you can download it if you want:  python  For those of you who just want to get started, I recomend just visiting the URL\n below, as everything this tutorial covers is executable on this webpage.  Python REPL  Once you open up the page above, you should see something along the following:  Python 3.6.x (default, Dec 2015, 13:05:11)\n[GCC 4.8.2] on linux\n>  This is called the python interpreter. The code from the tutorials can be typed\ndirectly into this area. We will not be using the  main.py  file for a bit.",
+            "title": "How To Run The Code:"
+        },
+        {
+            "location": "/tutorial/1-Getting-Started/#writing-your-first-code",
+            "text": "Upon embarking on the task of learning a new language a developer always starts\nout by attempting to get the language to print the text \"Hello, world!\" on the\nscreen. This is called the Hello World Test. Doing so validates their\ndevelopment environment and desktop as a whole are setup properly. Lets attempt\nthis here in python.  >>> print(\"Hello, world!\")\nHello, world!  print  is a very useful function that is available in all version of python.  Take note of how we put the sentence inside of quotes. This is called a string\nin most programming languages.",
+            "title": "Writing Your First Code:"
         },
         {
             "location": "/tutorial/2-Variables/",
